@@ -1,0 +1,8 @@
+pt:
+  activerecord:
+    models:
+      article: Artigo
+    attributes:
+      article:
+        title: Título
+        description: Descrição

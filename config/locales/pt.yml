@@ -1,0 +1,16 @@
+pt:
+  hello: "Olá angola"
+  controllers:
+    articles:
+      messages:
+        created: "Artigo foi criado com sucesso."
+        deleted: "Artigo foi eliminado com sucesso."
+        updated: "Artigo foi atualizado com sucesso."
+        index: Mensagem da página index...
+  activerecord:
+    models:
+      user:
+        one: Artigos
+        other: Articles
+      attributes:
+        title: "Titulo."
