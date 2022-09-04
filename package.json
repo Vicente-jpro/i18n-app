@@ -1,0 +1,17 @@
+{
+  "name": "i18n-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Vicente-jpro/i18n-app.git",
+  "author": "Vicente-jpro <70174120+Vicente-jpro@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.2.0",
+    "bootstrap-icons": "^1.9.1",
+    "sass": "^1.54.8"
+  },
+  "scripts": {
+    "build:css": "sass ./app/assets/stylesheets/application.bootstrap.scss:./app/assets/builds/application.css --no-source-map --load-path=node_modules"
+  }
+}
